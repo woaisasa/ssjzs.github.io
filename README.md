@@ -9,3 +9,4 @@ Creator:SaSa
 A man who likes Math,Physics,Chemistry,Biology,Geography,Technology.
 
 
+<a href="/tymn.html">太阳模拟</a>
