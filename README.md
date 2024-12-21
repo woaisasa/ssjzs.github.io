@@ -10,3 +10,4 @@ A man who likes Math,Physics,Chemistry,Biology,Geography,Technology.
 
 
 <a href="/tymn.html">太阳模拟</a>
+<a href="/mapeditor">天方夜谭MapEditor地图编辑器</a>
