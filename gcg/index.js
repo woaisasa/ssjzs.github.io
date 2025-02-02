@@ -272,7 +272,6 @@ player.position.z=0
     scene.add(ts)
     //ts.attach(umb2[8])
     
-)
 for (var i=16;i<24;i+=1){
 	var t=flower.clone()
 	t.position.z=i
