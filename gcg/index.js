@@ -266,15 +266,12 @@ player.position.z=0
 	var map1=new three.TextureLoader().load("map.jpg")
 	var pas=new three.Mesh(new three.PlaneGeometry(2,2),new three.MeshBasicMaterial({map:map1,alphaMap:map1,transparent:true,side:three.DoubleSide}))
 	pas.position.set(1,3,5)
-	console.log(pas.material)
 	pas.rotation.x=1.57
 	scene.add(pas)
     var ts=new TransformControls(camera,document.getElementById("content"))
     scene.add(ts)
     //ts.attach(umb2[8])
-    ts.addEventListener("mouseUp",()=>{
-		console.log(umb2[8].position)
-	}
+    
 )
 for (var i=16;i<24;i+=1){
 	var t=flower.clone()
